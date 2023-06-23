@@ -1,0 +1,41 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100vw;
+}
+.nav-container-bg {
+    background-color: rgba(0, 0, 0, 0.85);
+    transition: 0.5s;
+}
+.link-style{
+    text-decoration: none;
+}
+.nav-logo{
+    width: 120px;
+    height: 60px;
+}
+.description{
+    flex-grow: 1;
+    color: #000;
+    padding-left: 20px;
+    border-left: 1px solid #534d4d;
+}
+.menu-container{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-container li{
+    margin-right: 15px;
+}
+.link-style{
+    font-family: "Roboto";
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
