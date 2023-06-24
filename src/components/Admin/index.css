@@ -1,0 +1,34 @@
+.bg-container{
+    width: 100vw;
+}
+.admin-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #d8a3a3,#e29292);
+    min-height: 100vh;
+    height: 100%;
+    padding: 35px;
+}
+.admin-page h1 {
+    margin: 25px;
+}
+.tourist-list-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.traveler-card{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+.traveler-card p{
+    font-size: 20px;
+}
